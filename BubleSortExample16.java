@@ -5,7 +5,7 @@ public class BubleSortExample16 {
 
         for (int i=0; i < intData.length; i++){
             for (int j=1; j < intData.length-i; j++){
-                if (intData[j-1] > intData[j]){
+                if (intData[j-1] < intData[j]){
                     temp = intData[j];
                     intData[j] = intData[j-1];
                     intData[j-1] = temp;
